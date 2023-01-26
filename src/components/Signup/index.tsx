@@ -2,7 +2,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import { Input } from "@mui/material";
-import { IFormInputs } from "./type";
+import { FormInputsProps } from "./type";
 import { fields } from "./data.mock";
 
 import SignupItem from "../SignupItem";
@@ -24,10 +24,10 @@ const Signup = () => {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm<IFormInputs>({
+  } = useForm<FormInputsProps>({
     resolver: yupResolver(schema),
   });
-  const onSubmit = (data: IFormInputs) => console.log(data);
+  const onSubmit = (data: FormInputsProps) => console.log(data);
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>

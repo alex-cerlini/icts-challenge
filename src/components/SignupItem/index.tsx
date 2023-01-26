@@ -1,13 +1,5 @@
 import { Input, InputLabel } from "@mui/material";
-import { UseFormRegister } from "react-hook-form";
-import { SignupEnum } from "../Signup/enum";
-import { IFormInputs } from "../Signup/type";
-
-export type SignupItemProps = {
-  label: string;
-  id: SignupEnum;
-  register: UseFormRegister<IFormInputs>;
-};
+import { SignupItemProps } from "./type";
 
 const SignupItem = ({ label, id, register }: SignupItemProps) => {
   return (
