@@ -10,3 +10,10 @@ export const Container = styled(Box)<BoxProps>(({ theme }) => ({
   height: 500,
   borderRadius: "2rem",
 }));
+
+export const ButtonsContainer = styled(Box)<BoxProps>({
+  display: "flex",
+  justifyContent: "space-between",
+  width: "50%",
+  marginTop: 18,
+});

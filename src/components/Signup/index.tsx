@@ -59,14 +59,7 @@ const Signup = () => {
             key={field.id}
           />
         ))}
-        <Box
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            width: "50%",
-            marginTop: 18,
-          }}
-        >
+        <Style.ButtonsContainer>
           <Button
             variant="contained"
             type="submit"
@@ -78,7 +71,7 @@ const Signup = () => {
           <Button variant="contained" type="submit">
             Enviar
           </Button>
-        </Box>
+        </Style.ButtonsContainer>
       </Style.Container>
     </form>
   );
