@@ -59,6 +59,7 @@ const Signup = () => {
             key={field.id}
           />
         ))}
+
         <Style.ButtonsContainer>
           <Button
             variant="contained"
