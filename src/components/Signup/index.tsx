@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
-import { Box, Button } from "@mui/material";
+import { Button } from "@mui/material";
 import { FormInputsProps } from "./type";
 import { fields } from "./data.mock";
 
