@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignupItem should match snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="MuiBox-root css-1rdoel6"
+      data-testid="container"
+    >
+      <label
+        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-animated MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-animated css-9npbnl-MuiFormLabel-root-MuiInputLabel-root"
+        data-testid="label"
+        for="fullName"
+        role="label"
+      >
+        Nome
+      </label>
+      <div
+        class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-colorPrimary css-q0jhri-MuiInputBase-root-MuiInput-root"
+      >
+        <input
+          class="MuiInputBase-input MuiInput-input css-1x51dt5-MuiInputBase-input-MuiInput-input"
+          id="fullName"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</body>
+`;

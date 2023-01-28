@@ -16,8 +16,10 @@ const SignupItem = ({ label, id, register }: SignupItemProps) => {
     : SignupItemTypeEnum.number;
 
   return (
-    <Style.Container>
-      <InputLabel htmlFor={id}>{label}</InputLabel>
+    <Style.Container data-testid="container">
+      <InputLabel htmlFor={id} role="label" data-testid="label">
+        {label}
+      </InputLabel>
       <Input id={id} {...register(id)} type={typeInput} />
     </Style.Container>
   );
